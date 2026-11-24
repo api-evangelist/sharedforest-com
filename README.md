@@ -1,4 +1,4 @@
-# sharedforest-com
+# Shared Forest
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,5 +64,139 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-sharedforest-com is a company surfaced via the API Evangelist harvest backlog (source: mcp-registry) and added to the network as a stub for full-pipeline profiling.
-- https://sharedforest.com/
+Shared Forest is a free, shared digital forest that grows from web traffic. Visitors can plant a tree each day without an account, and sponsors can fund trees. It runs on Cloudflare Workers and Durable Objects, created by Arne Kellmann in Germany. The platform provides a REST API and MCP for agents to interact, offering open access to planting and tree data.
+
+**Areas:** Community · Open-source · Digital Forest · Environmental · API
+
+## Shared Forest on APIs.io
+
+Everything profiled for Shared Forest is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/sharedforest-com/](https://apis.io/providers/sharedforest-com/)** — or go straight to one of the APIs or properties below.
+
+### APIs (6)
+
+- [Shared Forest Ask API](https://apis.io/apis/sharedforest-com/sharedforest-com-ask-api/) — The Ask API from Shared Forest — 1 operation(s) for ask.
+- [Shared Forest Chunks API](https://apis.io/apis/sharedforest-com/sharedforest-com-chunks-api/) — The Chunks API from Shared Forest — 1 operation(s) for chunks.
+- [Shared Forest Forest API](https://apis.io/apis/sharedforest-com/sharedforest-com-forest-api/) — The Forest API from Shared Forest — 1 operation(s) for forest.
+- [Shared Forest Sponsorship API](https://apis.io/apis/sharedforest-com/sharedforest-com-sponsorship-api/) — The sponsorship API from Shared Forest — 14 operation(s) for sponsorship.
+- [Shared Forest Visit API](https://apis.io/apis/sharedforest-com/sharedforest-com-visit-api/) — The Visit API from Shared Forest — 1 operation(s) for visit.
+- [Shared Forest World API](https://apis.io/apis/sharedforest-com/sharedforest-com-world-api/) — The World API from Shared Forest — 1 operation(s) for world.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Agentic access (1)
+
+Which operations an agent can call, which act, and which need a human in the loop.
+
+- [Shared Forest Agentic Access](https://apis.io/agentic-access/sharedforest-com/sharedforest-com-agentic-access/)
+
+#### JSON Schema (6)
+
+The data models the API reads and writes.
+
+- [AskResponse](https://apis.io/schemas/sharedforest-com/sharedforest-com-ask-response/)
+- [CreateOrderRequest](https://apis.io/schemas/sharedforest-com/sharedforest-com-create-order-request/)
+- [ForestSnapshot](https://apis.io/schemas/sharedforest-com/sharedforest-com-forest-snapshot/)
+- [Order](https://apis.io/schemas/sharedforest-com/sharedforest-com-order/)
+- [PriceQuote](https://apis.io/schemas/sharedforest-com/sharedforest-com-price-quote/)
+- [Pricing](https://apis.io/schemas/sharedforest-com/sharedforest-com-pricing/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Sharedforest Com Context](https://apis.io/jsonld/sharedforest-com/sharedforest-com-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [Shared Forest API Rules](https://apis.io/rules/sharedforest-com/sharedforest-com-rules/)
+
+#### Security (3)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Shared Forest Authentication](https://apis.io/security/sharedforest-com/sharedforest-com-authentication/)
+- [Shared Forest Domain Security](https://apis.io/security/sharedforest-com/sharedforest-com-domain-security/)
+- [Shared Forest Vulnerability Disclosure](https://apis.io/security/sharedforest-com/sharedforest-com-vulnerability-disclosure/)
+
+#### OAuth scopes (1)
+
+The permissions the API asks for.
+
+- [Shared Forest Scopes](https://apis.io/scopes/sharedforest-com/sharedforest-com-scopes/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Shared Forest Plans Pricing](https://apis.io/plans/sharedforest-com/sharedforest-com-plans-pricing/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://sharedforest.com/)
+- [Documentation](https://sharedforest.com/developers)
+- [API reference](https://sharedforest.com/openapi.json)
+- [Pricing](https://sharedforest.com/pricing.md)
+- [Terms of service](https://sharedforest.com/agb)
+- [Privacy policy](https://sharedforest.com/datenschutz)
+
+## API Evangelist rating
+
+**Kin Score 52.9** — developing · rubric 0.28.0 · scored 2026-11-24
+
+| Facet | Score |
+|---|---|
+| Discoverability | 75.0 |
+| Contract quality | 61.9 |
+| Contract governance | 79.1 |
+| Operational transparency | 9.5 |
+| Developer ergonomics | 28.6 |
+| Access clarity | 48.5 |
+
+**Agent readiness 65.9** — agent-native
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | unknown |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | served (partial credit) |
+| Idempotency | verified |
+| Error Semantics | verified |
+| OpenAPI Examples | partial |
+| Rate Limit Signal | verified |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | yes |
+| Consent Identity | — |
+| Agent Card | conformant |
+| Dry Run Mode | — |
+| Delegated Identity | served (partial credit) |
+| Protected Resource Metadata | verified |
+| Dynamic Client Registration | yes |
+| Agentic Commerce | — |
+| Pagination Ratio | — |
+| Operation Distinctiveness | — |
+| MCP Tool Quality | na |
+
+**Regulatory alignment 40.2** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/sharedforest-com/](https://apis.io/providers/sharedforest-com/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Shared Forest: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/sharedforest-com/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
